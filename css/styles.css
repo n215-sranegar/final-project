@@ -73,6 +73,7 @@ footer .footer-wrapper .address {
   font-size: 16px;
   color: #fff;
   margin: 45px 0;
+  line-height: 22px;
 }
 footer .footer-wrapper .newsletter-signup {
   display: flex;
@@ -100,6 +101,11 @@ footer .footer-wrapper .newsletter-signup .button-wrapper button {
   font-family: GillSans;
   font-size: 16px;
   letter-spacing: 1px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+}
+footer .footer-wrapper .newsletter-signup .button-wrapper button:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
 }
 footer .footer-wrapper .social-media {
   margin: 30px auto 45px auto;
@@ -111,11 +117,17 @@ footer .footer-wrapper .social-media {
 footer .footer-wrapper .social-media .social-media-icon i {
   font-size: 30px;
   color: #fff;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
-footer .footer-wrapper p {
+footer .footer-wrapper .social-media .social-media-icon i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+footer .footer-wrapper span {
   font-family: GillSans;
   font-size: 12px;
   color: #fff;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=styles.css.map */
