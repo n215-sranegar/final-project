@@ -1,0 +1,31 @@
+.home-quote {
+  min-height: 300px;
+  background-color: $site-white;
+  padding: 77px 10px;
+
+  .home-quote-wrapper {
+    max-width: $home-quote-width;
+    margin: 0 auto;
+    p {
+      color: $site-yellow;
+      font-family: GillSansSemiBoldItalic;
+      font-size: 15px;
+
+      line-height: 22px;
+    }
+
+    h2 {
+      padding-top: 20px;
+      font-family: PTSerif;
+      font-size: 15px;
+      color: $site-pink;
+    }
+
+    span p {
+      font-family: PTSerif;
+      color: #a8a8a8;
+      font-size: 10px;
+      margin-top: -10px;
+    }
+  }
+}

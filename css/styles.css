@@ -24,12 +24,27 @@ p {
   src: url(../fonts/GillSans/GillSans.ttc);
 }
 @font-face {
+  font-family: GillSansBold;
+  src: url(../fonts/GillSans/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url(../fonts/GillSans/Gill\ Sans\ Light.otf);
+}
+@font-face {
   font-family: GillSansItalic;
   src: url(../fonts/GillSans/Gill\ Sans\ Italic.otf);
 }
 @font-face {
+  font-family: GillSansSemiBoldItalic;
+  src: url(../fonts/GillSans/Gill\ Sans\ Medium\ Italic.otf);
+}
+@font-face {
   font-family: PTSerif;
   src: url(../fonts/PTSerif-Regular.ttf);
+}
+nav {
+  padding: 0 10px;
 }
 nav .nav-wrapper {
   max-width: 980px;
@@ -86,6 +101,7 @@ nav .links span {
   margin: 0 auto;
   text-align: center;
   width: 420px;
+  line-height: 22px;
 }
 .home-hero .home-btn-wrapper {
   width: 121.62px;
@@ -109,8 +125,7 @@ nav .links span {
 footer {
   background-color: #EE4367;
   height: 455px;
-  padding-top: 46px;
-  padding-bottom: 35px;
+  padding: 46px 10px 35px 10px;
 }
 footer .footer-wrapper {
   max-width: 696px;
@@ -179,6 +194,107 @@ footer .footer-wrapper span {
   font-size: 12px;
   color: #fff;
   opacity: 0.5;
+}
+
+.home-quote {
+  min-height: 300px;
+  background-color: #fff;
+  padding: 77px 10px;
+}
+.home-quote .home-quote-wrapper {
+  max-width: 789px;
+  margin: 0 auto;
+}
+.home-quote .home-quote-wrapper p {
+  color: #FFD140;
+  font-family: GillSansSemiBoldItalic;
+  font-size: 15px;
+  line-height: 22px;
+}
+.home-quote .home-quote-wrapper h2 {
+  padding-top: 20px;
+  font-family: PTSerif;
+  font-size: 15px;
+  color: #EE4367;
+}
+.home-quote .home-quote-wrapper span p {
+  font-family: PTSerif;
+  color: #a8a8a8;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.home-events {
+  background-color: #540D6E;
+  padding: 50px 0px;
+  min-height: 320px;
+  text-overflow: hidden;
+}
+.home-events h2 {
+  text-transform: uppercase;
+  font-family: GillSans;
+  font-size: 25px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  max-width: 1198px;
+  margin: 0 auto;
+}
+.home-events h2:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 392px;
+  margin-top: 10.5px;
+  margin-bottom: 34.5px;
+}
+.home-events .upcoming-events-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1198px;
+  margin: 0 auto;
+}
+.home-events .upcoming-events-wrapper .event-container {
+  width: 220px;
+  height: 124px;
+  text-overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.home-events .upcoming-events-wrapper .event-container .date {
+  height: 60px;
+  width: 60px;
+  background-color: #EE4367;
+}
+.home-events .upcoming-events-wrapper .event-container .date p {
+  color: #fff;
+  font-family: GillSansBold;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 9px;
+}
+.home-events .upcoming-events-wrapper .event-container .date span p {
+  color: #fff;
+  font-family: GillSansLight;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -25.5px;
+}
+.home-events .upcoming-events-wrapper .event-container .event-description {
+  width: 140px;
+  padding: 2px;
+}
+.home-events .upcoming-events-wrapper .event-container .event-description p {
+  font-family: GillSans;
+  font-size: 15px;
+  color: #fff;
+}
+.home-events .upcoming-events-wrapper .event-container .event-description span p {
+  font-family: GillSans;
+  font-size: 13px;
+  color: #EE4367;
+  margin-top: -1px;
 }
 
 /*# sourceMappingURL=styles.css.map */

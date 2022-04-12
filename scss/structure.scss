@@ -28,8 +28,23 @@ p {
   }
 
   @font-face {
+    font-family: GillSansBold;
+    src: url(../fonts/GillSans/Gill\ Sans\ Bold.otf);
+  }
+
+  @font-face {
+    font-family: GillSansLight;
+    src: url(../fonts/GillSans/Gill\ Sans\ Light.otf);
+  }
+
+  @font-face {
     font-family: GillSansItalic;
     src: url(../fonts/GillSans/Gill\ Sans\ Italic.otf);
+  }
+
+  @font-face {
+    font-family: GillSansSemiBoldItalic;
+    src: url(../fonts/GillSans/Gill\ Sans\ Medium\ Italic.otf);
   }
 
   @font-face {

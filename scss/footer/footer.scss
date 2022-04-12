@@ -1,8 +1,8 @@
 footer {
   background-color: $site-pink;
   height: 455px;
-  padding-top: 46px;
-  padding-bottom: 35px;
+  padding: 46px 10px 35px 10px;
+
   .footer-wrapper {
     max-width: $footer-content-width;
     margin: 0 auto;
@@ -49,7 +49,6 @@ footer {
           font-size: 16px;
           letter-spacing: 1px;
           transition: 0.2s ease-in, 0.2s ease-out;
-
 
           &:hover {
             cursor: pointer;

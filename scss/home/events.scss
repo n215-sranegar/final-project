@@ -1,0 +1,87 @@
+.home-events {
+    background-color: $site-purple;
+    padding: 50px 0px;
+    min-height: 320px;
+    text-overflow: hidden;
+
+    h2 {
+        text-transform: uppercase;
+        font-family: GillSans;
+        font-size: 25px;
+        color: $site-white;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        max-width: $home-events-width;
+        margin: 0 auto;
+    }
+
+    h2:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid $site-white;
+        width: 392px;
+        margin-top: 10.5px;
+        margin-bottom: 34.5px;
+      }
+
+    .upcoming-events-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: $home-events-width;
+        margin: 0 auto;
+
+  
+
+        .event-container {
+            width: 220px;
+            height: 124px;
+            text-overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+       
+
+            .date {
+                height: 60px;
+                width: 60px;
+                background-color: $site-pink;
+
+                p {
+                    color: $site-white;
+                    font-family: GillSansBold;
+                    font-size: 22px;
+                    text-align: center;
+                    padding-top: 9px;
+                }
+
+                span p {
+                    color: $site-white;
+                    font-family: GillSansLight;
+                    font-size: 12px;
+                    text-align: center;
+                    margin-top: -25.5px;
+
+                }
+            }   
+            .event-description {
+                width: 140px;
+                padding: 2px;
+                p {
+                    font-family: GillSans;
+                    font-size: 15px;
+                    color: $site-white;
+                }
+
+                span p {
+                    font-family: GillSans;
+                    font-size: 13px;
+                    color: $site-pink;
+                    margin-top: -1px;
+                }
+
+            }
+        }
+
+    }
+    
+}
