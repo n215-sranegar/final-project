@@ -1,8 +1,8 @@
 .home-events {
     background-color: $site-purple;
-    padding: 50px 0px;
+    padding: 50px 10px;
     min-height: 320px;
-    text-overflow: hidden;
+
 
     h2 {
         text-transform: uppercase;
@@ -26,26 +26,24 @@
 
     .upcoming-events-wrapper {
         display: flex;
-        align-items: center;
         justify-content: space-between;
         max-width: $home-events-width;
         margin: 0 auto;
-
+ 
+   
   
 
         .event-container {
             width: 220px;
-            height: 124px;
-            text-overflow: hidden;
+            height: auto;
             display: flex;
             justify-content: space-between;
-       
-
+            padding-left: 5px;
             .date {
                 height: 60px;
                 width: 60px;
                 background-color: $site-pink;
-
+                padding: 0 10px;
                 p {
                     color: $site-white;
                     font-family: GillSansBold;
@@ -64,12 +62,15 @@
                 }
             }   
             .event-description {
-                width: 140px;
+                max-width: 140px;
                 padding: 2px;
+                padding-left: 10px;
+
                 p {
                     font-family: GillSans;
                     font-size: 15px;
                     color: $site-white;
+                    
                 }
 
                 span p {

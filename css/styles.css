@@ -226,9 +226,8 @@ footer .footer-wrapper span {
 
 .home-events {
   background-color: #540D6E;
-  padding: 50px 0px;
+  padding: 50px 10px;
   min-height: 320px;
-  text-overflow: hidden;
 }
 .home-events h2 {
   text-transform: uppercase;
@@ -250,22 +249,22 @@ footer .footer-wrapper span {
 }
 .home-events .upcoming-events-wrapper {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   max-width: 1198px;
   margin: 0 auto;
 }
 .home-events .upcoming-events-wrapper .event-container {
   width: 220px;
-  height: 124px;
-  text-overflow: hidden;
+  height: auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 5px;
 }
 .home-events .upcoming-events-wrapper .event-container .date {
   height: 60px;
   width: 60px;
   background-color: #EE4367;
+  padding: 0 10px;
 }
 .home-events .upcoming-events-wrapper .event-container .date p {
   color: #fff;
@@ -282,8 +281,9 @@ footer .footer-wrapper span {
   margin-top: -25.5px;
 }
 .home-events .upcoming-events-wrapper .event-container .event-description {
-  width: 140px;
+  max-width: 140px;
   padding: 2px;
+  padding-left: 10px;
 }
 .home-events .upcoming-events-wrapper .event-container .event-description p {
   font-family: GillSans;
