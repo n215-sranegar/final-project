@@ -1,0 +1,21 @@
+nav {
+background-color: red;
+
+    .nav-wrapper {
+        width: $site-width;
+        background-color: rgb(180, 218, 165);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .links a, span{
+        margin: 13.5px;
+        text-transform: lowercase;
+        text-decoration: none;
+        font-family: GillSans;
+
+    }
+}

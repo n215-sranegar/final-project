@@ -19,4 +19,33 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  padding: 50px 0px;
+  width: 100%;
+  min-height: calc(100vh - 90px);
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans/GillSans.ttc);
+}
+nav {
+  background-color: red;
+}
+nav .nav-wrapper {
+  width: 980px;
+  background-color: rgb(180, 218, 165);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+nav .links a, nav span {
+  margin: 13.5px;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-family: GillSans;
+}
+
 /*# sourceMappingURL=styles.css.map */
