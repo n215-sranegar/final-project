@@ -53,7 +53,9 @@ footer {
 
           &:hover {
             cursor: pointer;
-            background-color: $btn-hoover;
+            background-color: $footer-signup-input;
+            color: $site-white;
+            border-left: 1px solid $site-pink;
           }
         }
       }

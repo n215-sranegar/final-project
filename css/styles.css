@@ -23,6 +23,14 @@ p {
   font-family: GillSans;
   src: url(../fonts/GillSans/GillSans.ttc);
 }
+@font-face {
+  font-family: GillSansItalic;
+  src: url(../fonts/GillSans/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
 nav .nav-wrapper {
   max-width: 980px;
   height: 92.5px;
@@ -55,6 +63,47 @@ nav .links span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 156px;
+}
+.home-hero h1 {
+  font-family: PTSerif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.home-hero h2 {
+  font-family: GillSansItalic;
+  font-size: 20px;
+  color: #EE4367;
+  text-align: center;
+  margin-bottom: 49px;
+  margin-top: -4px;
+}
+.home-hero p {
+  font-family: GillSansItalic;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  width: 420px;
+}
+.home-hero .home-btn-wrapper {
+  width: 121.62px;
+  margin: 48px auto 73px auto;
+}
+.home-hero .home-btn-wrapper button {
+  background-color: #EE4367;
+  border: none;
+  font-family: GillSans;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+}
+.home-hero .home-btn-wrapper button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #EE4367;
 }
 
 footer {
@@ -105,7 +154,9 @@ footer .footer-wrapper .newsletter-signup .button-wrapper button {
 }
 footer .footer-wrapper .newsletter-signup .button-wrapper button:hover {
   cursor: pointer;
-  background-color: #eeeeee;
+  background-color: #F56B88;
+  color: #fff;
+  border-left: 1px solid #EE4367;
 }
 footer .footer-wrapper .social-media {
   margin: 30px auto 45px auto;
