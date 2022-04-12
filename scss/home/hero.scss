@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 156px;
+  
 
   h1 {
     font-family: PTSerif;
@@ -35,7 +36,8 @@
     color: $site-white;
     margin: 0 auto;
     text-align: center;
-    width: 420px; 
+    max-width: 420px; 
+    padding: 0 10px;
     line-height: 22px;
   }
 

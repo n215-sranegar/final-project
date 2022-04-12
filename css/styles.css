@@ -100,7 +100,8 @@ nav .links span {
   color: #fff;
   margin: 0 auto;
   text-align: center;
-  width: 420px;
+  max-width: 420px;
+  padding: 0 10px;
   line-height: 22px;
 }
 .home-hero .home-btn-wrapper {
@@ -295,6 +296,40 @@ footer .footer-wrapper span {
   font-size: 13px;
   color: #EE4367;
   margin-top: -1px;
+}
+
+@media screen and (max-width: 900px) {
+  .home-events h2 {
+    text-align: center;
+  }
+  .home-events h2:after {
+    margin: 10.5px auto 34.5px auto;
+    width: 100%;
+  }
+  .home-events .upcoming-events-wrapper {
+    flex-direction: column;
+    max-width: 950px;
+  }
+  .home-events .upcoming-events-wrapper .event-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    flex-direction: column;
+  }
+  .home-events .upcoming-events-wrapper .event-container .date {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+  }
+  .home-events .upcoming-events-wrapper .event-container .date span p {
+    margin-left: 5px;
+    margin-top: 6px;
+  }
+  .home-events .upcoming-events-wrapper .event-container .event-description {
+    min-width: 100%;
+    padding: 30px 14px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
