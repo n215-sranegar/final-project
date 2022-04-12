@@ -8,8 +8,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 
-    .footer-logo {
-    }
 
     .address {
       font-family: GillSans;
@@ -87,5 +85,29 @@ footer {
       color: $site-white;
       opacity: 0.5;
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+
+    .footer-wrapper {
+      .newsletter-signup {
+        input {
+          padding: 14px 2px 14px 14px;
+          font-size: 14px;
+          font-family: GillSansLight;
+        }
+        .button-wrapper {
+      
+          button {
+            width: 100px;
+            font-size: 14px;
+
+          }
+        }
+      }
+    }
+  
   }
 }

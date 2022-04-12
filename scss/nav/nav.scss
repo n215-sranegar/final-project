@@ -20,6 +20,12 @@ nav {
       font-family: GillSans;
       font-size: 15px;
       color: $site-white;
+      transition: 0.14s ease-in, 0.14s ease-out;
+
+      &:hover {
+        cursor: pointer;
+        color: $site-pink;
+      }
     }
 
     span {

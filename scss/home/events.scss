@@ -36,7 +36,6 @@
       justify-content: space-between;
       padding-left: 5px;
 
-
       .date {
         height: 60px;
         width: 60px;
@@ -77,6 +76,10 @@
           margin-top: -1px;
         }
       }
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
@@ -102,14 +105,14 @@
         flex-direction: column;
 
         .date {
-          width: 100%;    
+          width: 100%;
           display: flex;
           align-items: center;
           padding: 18px;
 
           span p {
-              margin-left: 5px;
-              margin-top: 6px;
+            margin-left: 5px;
+            margin-top: 6px;
           }
         }
 
