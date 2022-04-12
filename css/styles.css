@@ -19,33 +19,103 @@ p {
   margin-bottom: 16px;
 }
 
-#app {
-  padding: 50px 0px;
-  width: 100%;
-  min-height: calc(100vh - 90px);
-}
-
 @font-face {
   font-family: GillSans;
   src: url(../fonts/GillSans/GillSans.ttc);
 }
-nav {
-  background-color: red;
-}
 nav .nav-wrapper {
-  width: 980px;
-  background-color: rgb(180, 218, 165);
-  height: 40px;
+  max-width: 980px;
+  height: 92.5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  position: relative;
+  z-index: 99;
+  border-bottom: 2px solid #fff;
 }
-nav .links a, nav span {
-  margin: 13.5px;
+nav .links a {
   text-transform: lowercase;
   text-decoration: none;
   font-family: GillSans;
+  font-size: 15px;
+  color: #fff;
+}
+nav .links span {
+  margin: 0 13.5px;
+  color: #EE4367;
+  font-size: 18px;
+}
+
+.home-hero {
+  max-width: 100%;
+  height: 500px;
+  margin-top: -92.5px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #EE4367;
+  height: 455px;
+  padding-top: 46px;
+  padding-bottom: 35px;
+}
+footer .footer-wrapper {
+  max-width: 696px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .footer-wrapper .address {
+  font-family: GillSans;
+  font-size: 16px;
+  color: #fff;
+  margin: 45px 0;
+}
+footer .footer-wrapper .newsletter-signup {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-wrapper .newsletter-signup input {
+  width: 529px;
+  height: 60px;
+  padding-left: 23px;
+  font-family: GillSans;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+footer .footer-wrapper .newsletter-signup ::placeholder {
+  color: #fff;
+}
+footer .footer-wrapper .newsletter-signup .button-wrapper button {
+  width: 167px;
+  height: 60px;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #EE4367;
+  border: none;
+  font-family: GillSans;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+footer .footer-wrapper .social-media {
+  margin: 30px auto 45px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 156px;
+}
+footer .footer-wrapper .social-media .social-media-icon i {
+  font-size: 30px;
+  color: #fff;
+}
+footer .footer-wrapper p {
+  font-family: GillSans;
+  font-size: 12px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

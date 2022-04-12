@@ -1,4 +1,79 @@
 footer {
-    background-color: green;
-    
+  background-color: $site-pink;
+  height: 455px;
+  padding-top: 46px;
+  padding-bottom: 35px;
+  .footer-wrapper {
+    max-width: $footer-content-width;
+    margin: 0 auto;
+    text-align: center;
+
+    .footer-logo {
+    }
+
+    .address {
+      font-family: GillSans;
+      font-size: 16px;
+      color: $site-white;
+      margin: 45px 0;
+    }
+
+    .newsletter-signup {
+      display: flex;
+      justify-content: center;
+
+      input {
+        width: 529px;
+        height: 60px;
+        padding-left: 23px;
+        font-family: GillSans;
+        font-size: 16px;
+        background-color: $footer-signup-input;
+        border: none;
+ 
+      }
+
+      ::placeholder {
+          color: $site-white;
+      }
+      
+      .button-wrapper {
+        button {
+          width: 167px;
+          height: 60px;
+          background-color: $site-white;
+          text-transform: uppercase;
+          color: $site-pink;
+          border: none;
+          font-family: GillSans;
+          font-size: 16px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .social-media {
+      margin: 30px auto 45px auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 156px;
+
+      .social-media-icon {
+        a {
+        }
+
+        i {
+          font-size: 30px;
+          color: $site-white;
+        }
+      }
+    }
+
+    p {
+        font-family: GillSans;
+        font-size: 12px;
+        color: $site-white;
+    }
+  }
 }

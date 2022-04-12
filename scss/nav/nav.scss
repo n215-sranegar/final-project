@@ -1,21 +1,31 @@
 nav {
-background-color: red;
+ 
 
-    .nav-wrapper {
-        width: $site-width;
-        background-color: rgb(180, 218, 165);
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
+  .nav-wrapper {
+    max-width: $site-width;
+    height: 92.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    border-bottom: 2px solid $site-white;
+  }
+
+  .links {
+    a {
+      text-transform: lowercase;
+      text-decoration: none;
+      font-family: GillSans;
+      font-size: 15px;
+      color: $site-white;
     }
 
-    .links a, span{
-        margin: 13.5px;
-        text-transform: lowercase;
-        text-decoration: none;
-        font-family: GillSans;
-
+    span {
+      margin: 0 13.5px;
+      color: $site-pink;
+      font-size: 18px;
     }
+  }
 }
