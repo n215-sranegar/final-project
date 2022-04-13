@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
 }
 
-@mixin gallery-paragraphs($pWidth: 490px) {
+@mixin gallery-paragraphs($pWidth: 495px) {
   max-width: $pWidth;
   font-family: GillSansLightItalic;
   font-size: 16px;
@@ -22,8 +22,9 @@
 
 @mixin gallery-page-hero(
   $overlayColor: $site-yellow,
-  $galleryHero: url(../images/gallery/1.png), $fontSize: 140px, $bottomMargin: -48px) {
+  $galleryHero: url(../images/gallery/1.png), $fontSize: 140px, $bottomMargin: -28px) {
   height: 400.5px;
+  width: 100%;
   background-image: linear-gradient(
       rgba($overlayColor, 0.7),
       rgba($overlayColor, 0.7)
@@ -34,6 +35,7 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   position: relative;
 
   h1 {
@@ -55,5 +57,6 @@
     position: absolute;
     bottom: $bottomMargin;
     left: 240px;
+    line-height: 122px;
   }
 }

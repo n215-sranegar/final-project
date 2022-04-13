@@ -1,9 +1,10 @@
 .gal-container {
-  padding: 0px 10px 73px 10px;
+  padding: 0px 10px 73px 20px;
 
   .gal-content {
     max-width: $site-width;
     margin: 50.5px auto 0px auto;
+
 
     .gal-header-1 {
       @include gallery-page-hero();
@@ -18,25 +19,64 @@
     }
 
     .gal-header-4 {
-        @include gallery-page-hero($overlayColor: $site-purple, $galleryHero: url(../images/gallery/4.jpg), $fontSize: 115px, $bottomMargin: -42px);
+        @include gallery-page-hero($overlayColor: $site-purple, $galleryHero: url(../images/gallery/4.jpg), $fontSize: 115px, $bottomMargin: -38px);
     }
 
     .gal-header-5 {
-        @include gallery-page-hero($overlayColor: $site-aqua, $galleryHero: url(../images/gallery/5.png), $fontSize: 115px, $bottomMargin: -42px);
+        @include gallery-page-hero($overlayColor: $site-aqua, $galleryHero: url(../images/gallery/5.png), $fontSize: 115px, $bottomMargin: -38px);
     }
       
     .gal-description {
         margin-top: 50.5px;
         display: flex;
         justify-content: space-between;
-
+     
         .left-gal-p {
             @include gallery-paragraphs();
+            margin-right: 60px;
         }
 
         .right-gal-p {
-            @include gallery-paragraphs($pWidth: 451px);
+            @include gallery-paragraphs($pWidth: 461px);
+           
         }
     }
   }
+}
+
+@media screen and (max-width: 875px) {
+    .gal-container {
+        .gal-content {
+            .gal-header {
+           
+                h1 {
+                    top: 5px;
+                    font-size: 96px;
+                    bottom: 42px;
+                    left: 20px;
+                }
+
+                h2 {
+                    top: 100px;
+                    left: 14px;
+                    bottom: -14px;
+                    font-size: 60px;
+                    line-height: 54px;
+                }
+            }
+            
+            .gal-description {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 30.5px;
+                padding: 0 10px;
+
+              
+                p {
+                    min-width: 98%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }

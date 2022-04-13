@@ -131,20 +131,7 @@ var aboutContent = `<div class="about-container">
 </div>
 </div>`;
  
-var galleryContent = ` <div class="gallery-container">
-<div class="gallery-content-wrapper">
-  <h1>Gallery:</h1>
-  <div class="gallery-row first-gallery-row">
-    <a href="#gallery1"><div class="gallery-img gallery-img1"></div></a>
-    <a href="#gallery2"><div class="gallery-img gallery-img2"></div></a>
-    <a href="#gallery3"><div class="gallery-img gallery-img3"></div></a>
-  </div>
-  <div class="gallery-row second-gallery-row">
-    <a href="#gallery4"><div class="gallery-img gallery-img4"></div></a>
-    <a href="#gallery5"><div class="gallery-img gallery-img5"></div></a>
-  </div>
-</div>
-</div>`;
+ 
 
 var gallery1Content = `<div class="gal-container">
 <div class="gal-content">
@@ -189,7 +176,7 @@ var gallery4Content = `<div class="gal-container">
 <div class="gal-content">
   <div class="gal-header gal-header-4">
     <h1>4.</h1>
-    <h2>open&nbsp;foodfest</h2>
+    <h2>open foodfest</h2>
   </div>
   <div class="gal-description">
     <p class="left-gal-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
