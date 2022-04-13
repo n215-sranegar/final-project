@@ -32,24 +32,26 @@
       justify-content: space-between;
       margin-top: 29.5px;
 
-      .gallery-img1 {
-        @include gallery-img();
-      }
+      a {
+        height: 100%;
+        .gallery-img1 {
+          @include gallery-img();
+        }
 
-      .gallery-img2 {
-        @include gallery-img(
-          $width: 187px,
-          $overlay: $site-pink,
-          $galleryImg: url(../images/gallery/2.jpeg)
-        );
-      }
-
-      .gallery-img3 {
-        @include gallery-img(
-          $width: 265px,
-          $overlay: $site-green,
-          $galleryImg: url(../images/gallery/3.jpg)
-        );
+        .gallery-img2 {
+          @include gallery-img(
+            $width: 187px,
+            $overlay: $site-pink,
+            $galleryImg: url(../images/gallery/2.jpeg)
+          );
+        }
+        .gallery-img3 {
+          @include gallery-img(
+            $width: 265px,
+            $overlay: $site-green,
+            $galleryImg: url(../images/gallery/3.jpg)
+          );
+        }
       }
     }
 
@@ -61,20 +63,23 @@
       align-items: center;
       justify-content: space-between;
 
-      .gallery-img4 {
-        @include gallery-img(
-          $width: 603px,
-          $overlay: $site-purple,
-          $galleryImg: url(../images/gallery/4.jpg)
-        );
-      }
+      a {
+        height: 100%;
+        .gallery-img4 {
+          @include gallery-img(
+            $width: 603px,
+            $overlay: $site-purple,
+            $galleryImg: url(../images/gallery/4.jpg)
+          );
+        }
 
-      .gallery-img5 {
-        @include gallery-img(
-          $width: 355px,
-          $overlay: $site-aqua,
-          $galleryImg: url(../images/gallery/5.png)
-        );
+        .gallery-img5 {
+          @include gallery-img(
+            $width: 355px,
+            $overlay: $site-aqua,
+            $galleryImg: url(../images/gallery/5.png)
+          );
+        }
       }
     }
   }
@@ -83,14 +88,13 @@
 @media screen and (max-width: 800px) {
   .gallery-container {
     .gallery-content-wrapper {
-
       h1 {
-          text-align: center;
+        text-align: center;
       }
 
       h1:after {
         width: 94%;
-        margin: 10.5px auto;
+        margin: 0 auto;
       }
 
       .gallery-row {
@@ -104,7 +108,7 @@
       }
 
       .second-gallery-row {
-          margin-top: 0;
+        margin-top: 0;
       }
     }
   }

@@ -130,21 +130,23 @@ var aboutContent = `<div class="about-container">
   </div>
 </div>
 </div>`;
-
-var galleryContent = `<div class="gallery-container">
+ 
+var galleryContent = ` <div class="gallery-container">
 <div class="gallery-content-wrapper">
   <h1>Gallery:</h1>
   <div class="gallery-row first-gallery-row">
-    <div class="gallery-img gallery-img1"></div>
-    <div class="gallery-img  gallery-img2"></div>
-    <div class="gallery-img  gallery-img3"></div>
+    <a href="#gallery1"><div class="gallery-img gallery-img1"></div></a>
+    <a href="#gallery2"><div class="gallery-img gallery-img2"></div></a>
+    <a href="#gallery3"><div class="gallery-img gallery-img3"></div></a>
   </div>
   <div class="gallery-row second-gallery-row">
-    <div class="gallery-img gallery-img4"></div>
-    <div class="gallery-img gallery-img5"></div>
+    <a href="#gallery4"><div class="gallery-img gallery-img4"></div></a>
+    <a href="#gallery5"><div class="gallery-img gallery-img5"></div></a>
   </div>
 </div>
 </div>`;
+
+// var gallery1Content = `<div>Hello</div>`;
 
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {

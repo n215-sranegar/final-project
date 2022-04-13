@@ -1,12 +1,21 @@
-@mixin gallery-img($width: 489px,$overlay: $site-yellow, $galleryImg: url(../images/gallery/1.png)) {
+@mixin gallery-img(
+  $width: 489px,
+  $overlay: $site-yellow,
+  $galleryImg: url(../images/gallery/1.png)
+) {
   width: $width;
   height: 100%;
-  background-image: linear-gradient(
-      rgba($overlay, 0.7),
-      rgba($overlay, 0.7)
-    ),
+  background-image: linear-gradient(rgba($overlay, 0.7), rgba($overlay, 0.7)),
     $galleryImg;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@mixin gallery-paragraphs($pWidth: 490px) {
+  max-width: $pWidth;
+  font-family: GillSansLightItalic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: $site-black;
 }
