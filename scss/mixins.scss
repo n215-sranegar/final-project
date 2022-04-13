@@ -19,3 +19,41 @@
   letter-spacing: 1px;
   color: $site-black;
 }
+
+@mixin gallery-page-hero(
+  $overlayColor: $site-yellow,
+  $galleryHero: url(../images/gallery/1.png), $fontSize: 140px, $bottomMargin: -48px) {
+  height: 400.5px;
+  background-image: linear-gradient(
+      rgba($overlayColor, 0.7),
+      rgba($overlayColor, 0.7)
+    ),
+    $galleryHero;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  h1 {
+    font-family: GillSans;
+    font-size: 300px;
+    color: $overlayColor;
+    font-weight: lighter;
+    text-shadow: 5px 5px 6px rgb(0, 0, 0, 0.16);
+    position: absolute;
+    bottom: -84px;
+    left: 0;
+  }
+  h2 {
+    font-family: GillSans;
+    font-size: $fontSize;
+    color: $overlayColor;
+    font-weight: lighter;
+    text-shadow: 5px 5px 6px rgb(0, 0, 0, 0.16);
+    position: absolute;
+    bottom: $bottomMargin;
+    left: 240px;
+  }
+}

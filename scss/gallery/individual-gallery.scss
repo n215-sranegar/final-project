@@ -5,34 +5,26 @@
     max-width: $site-width;
     margin: 50.5px auto 0px auto;
 
-    .gal-header {
-      height: 400.5px;
-      background-image: linear-gradient(
-          rgba($site-yellow, 0.7),
-          rgba($site-yellow, 0.7)
-        ),
-        url(../images/gallery/1.png);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: center;
+    .gal-header-1 {
+      @include gallery-page-hero();
+    }
+
+    .gal-header-2 {
+        @include gallery-page-hero($overlayColor: $site-pink, $galleryHero: url(../images/gallery/2.jpeg));
+    }
+
+    .gal-header-3 {
+        @include gallery-page-hero($overlayColor: $site-green, $galleryHero: url(../images/gallery/3.jpg));
+    }
+
+    .gal-header-4 {
+        @include gallery-page-hero($overlayColor: $site-purple, $galleryHero: url(../images/gallery/4.jpg), $fontSize: 115px, $bottomMargin: -42px);
+    }
+
+    .gal-header-5 {
+        @include gallery-page-hero($overlayColor: $site-aqua, $galleryHero: url(../images/gallery/5.png), $fontSize: 115px, $bottomMargin: -42px);
+    }
       
-      h1 {
-          font-family: GillSans;
-          font-size: 300px;
-          color: #FFD140;
-          font-weight: lighter;
-          text-shadow: 5px 5px 6px rgb(0, 0, 0, .16);
-      }
-      h2 {
-        font-family: GillSans;
-        font-size: 140px;
-        color: #FFD140;
-        font-weight: lighter;
-        text-shadow: 5px 5px 6px rgb(0, 0, 0, .16);
-    }
-    }
     .gal-description {
         margin-top: 50.5px;
         display: flex;
