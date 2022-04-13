@@ -7,7 +7,7 @@ function route() {
     let pageContent = pageName + "Content";
 
     if (pageName == "") {
-        pageContent = "homeContent";
+        pageContent = "blogContent";
     }
 
     MODEL.modelPageName(pageContent);
