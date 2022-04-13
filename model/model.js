@@ -108,7 +108,7 @@ var homeContent = `<div class="home-hero">
 </div>
 </div>`
 
-var aboutContent = ``;
+// var aboutContent = ``;
 
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
