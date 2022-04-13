@@ -81,11 +81,11 @@ nav .links a {
 }
 nav .links a:hover {
   cursor: pointer;
-  color: #EE4367;
+  color: #ee4367;
 }
 nav .links span {
   margin: 0 13.5px;
-  color: #EE4367;
+  color: #ee4367;
   font-size: 18px;
 }
 
@@ -141,7 +141,7 @@ nav .links span {
 .home-hero h2 {
   font-family: GillSansItalic;
   font-size: 20px;
-  color: #EE4367;
+  color: #ee4367;
   text-align: center;
   margin-bottom: 49px;
   margin-top: -4px;
@@ -161,7 +161,7 @@ nav .links span {
   margin: 48px auto 73px auto;
 }
 .home-hero .home-btn-wrapper button {
-  background-color: #EE4367;
+  background-color: #ee4367;
   border: none;
   font-family: GillSans;
   color: #fff;
@@ -172,11 +172,19 @@ nav .links span {
 .home-hero .home-btn-wrapper button:hover {
   cursor: pointer;
   background-color: #fff;
-  color: #EE4367;
+  color: #ee4367;
 }
 
+@media screen and (max-width: 800px) {
+  .home-hero {
+    height: 100vh;
+  }
+  .home-hero h1 {
+    padding-top: 90px;
+  }
+}
 footer {
-  background-color: #EE4367;
+  background-color: #ee4367;
   height: 455px;
   padding: 46px 10px 35px 10px;
 }
@@ -202,7 +210,7 @@ footer .footer-wrapper .newsletter-signup input {
   padding-left: 23px;
   font-family: GillSans;
   font-size: 16px;
-  background-color: #F56B88;
+  background-color: #f56b88;
   border: none;
 }
 footer .footer-wrapper .newsletter-signup ::placeholder {
@@ -213,7 +221,7 @@ footer .footer-wrapper .newsletter-signup .button-wrapper button {
   height: 60px;
   background-color: #fff;
   text-transform: uppercase;
-  color: #EE4367;
+  color: #ee4367;
   border: none;
   font-family: GillSans;
   font-size: 16px;
@@ -222,9 +230,9 @@ footer .footer-wrapper .newsletter-signup .button-wrapper button {
 }
 footer .footer-wrapper .newsletter-signup .button-wrapper button:hover {
   cursor: pointer;
-  background-color: #F56B88;
+  background-color: #f56b88;
   color: #fff;
-  border-left: 1px solid #EE4367;
+  border-left: 1px solid #ee4367;
 }
 footer .footer-wrapper .social-media {
   margin: 30px auto 45px auto;
@@ -270,7 +278,7 @@ footer .footer-wrapper span {
   margin: 0 auto;
 }
 .home-quote .home-quote-wrapper p {
-  color: #FFD140;
+  color: #ffd140;
   font-family: GillSansSemiBoldItalic;
   font-size: 15px;
   line-height: 22px;
@@ -279,7 +287,7 @@ footer .footer-wrapper span {
   padding-top: 20px;
   font-family: PTSerif;
   font-size: 15px;
-  color: #EE4367;
+  color: #ee4367;
 }
 .home-quote .home-quote-wrapper span p {
   font-family: PTSerif;
@@ -289,7 +297,7 @@ footer .footer-wrapper span {
 }
 
 .home-events {
-  background-color: #540D6E;
+  background-color: #540d6e;
   padding: 50px 10px;
   min-height: 320px;
 }
@@ -327,7 +335,7 @@ footer .footer-wrapper span {
 .home-events .upcoming-events-wrapper .event-container .date {
   height: 60px;
   width: 60px;
-  background-color: #EE4367;
+  background-color: #ee4367;
   padding: 0 10px;
 }
 .home-events .upcoming-events-wrapper .event-container .date p {
@@ -357,7 +365,7 @@ footer .footer-wrapper span {
 .home-events .upcoming-events-wrapper .event-container .event-description span p {
   font-family: GillSans;
   font-size: 13px;
-  color: #EE4367;
+  color: #ee4367;
   margin-top: -1px;
 }
 .home-events .upcoming-events-wrapper .event-container:hover {

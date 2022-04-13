@@ -63,3 +63,13 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .home-hero {
+    height: 100vh;
+
+    h1 {
+      padding-top: 90px;
+    }
+  }
+}
