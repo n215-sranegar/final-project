@@ -19,6 +19,27 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  width: 100%;
+  min-height: calc(100vh - 545px);
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: #000;
+}
+
+.white-border {
+  border-bottom: 2px solid #fff;
+}
+
+.black-border {
+  border-bottom: 2px solid #000;
+}
+
 @font-face {
   font-family: GillSans;
   src: url(../fonts/GillSans/GillSans.ttc);
@@ -55,10 +76,25 @@ nav .nav-wrapper {
   margin: 0 auto;
   position: relative;
   z-index: 99;
-  border-bottom: 2px solid #fff;
 }
 nav .logo {
   padding-right: 10px;
+}
+nav .logo .nav-logo {
+  width: 92px;
+  height: 42px;
+}
+nav .logo .white-logo {
+  background-image: url(../images/logo/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .logo .black-logo {
+  background-image: url(../images/logo/logo-black.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 nav label {
   display: none;
@@ -76,7 +112,6 @@ nav .links a {
   text-decoration: none;
   font-family: GillSans;
   font-size: 15px;
-  color: #fff;
   transition: 0.14s ease-in, 0.14s ease-out;
 }
 nav .links a:hover {

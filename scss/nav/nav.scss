@@ -10,11 +10,29 @@ nav {
     margin: 0 auto;
     position: relative;
     z-index: 99;
-    border-bottom: 2px solid $site-white;
   }
 
   .logo {
     padding-right: 10px;
+
+    .nav-logo {
+      width: 92px;
+      height: 42px;
+    }
+    
+    .white-logo {
+      background-image: url(../images/logo/logo-white.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .black-logo {
+      background-image: url(../images/logo/logo-black.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 
   label {
@@ -36,7 +54,6 @@ nav {
       text-decoration: none;
       font-family: GillSans;
       font-size: 15px;
-      color: $site-white;
       transition: 0.14s ease-in, 0.14s ease-out;
 
       &:hover {

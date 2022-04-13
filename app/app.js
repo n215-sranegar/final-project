@@ -14,11 +14,11 @@ function route() {
 }
 
 function initListeners() {
-    $(window).on("hashchange",route);
+    $(window).on("hashchange", route);
     route();
     console.log(MODEL.myName);
 }
 
 $(document).ready(function () {
     initListeners();
-})
+});

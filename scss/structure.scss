@@ -17,39 +17,53 @@ p {
   margin-bottom: 16px;
 }
 
-// #app {
-//   width: 100%;
-//   min-height: calc(100vh - 90px);
-// }
+#app {
+  width: 100%;
+  min-height: calc(100vh - 545px);
+}
+
+.white-text {
+  color: $site-white;
+}
+
+.black-text {
+  color: $site-black;
+}
+
+.white-border {
+  border-bottom: 2px solid $site-white;
+}
+
+.black-border {
+  border-bottom: 2px solid $site-black;
+}
 
 @font-face {
-    font-family: GillSans;
-    src: url(../fonts/GillSans/GillSans.ttc);
-  }
+  font-family: GillSans;
+  src: url(../fonts/GillSans/GillSans.ttc);
+}
 
-  @font-face {
-    font-family: GillSansBold;
-    src: url(../fonts/GillSans/Gill\ Sans\ Bold.otf);
-  }
+@font-face {
+  font-family: GillSansBold;
+  src: url(../fonts/GillSans/Gill\ Sans\ Bold.otf);
+}
 
-  @font-face {
-    font-family: GillSansLight;
-    src: url(../fonts/GillSans/Gill\ Sans\ Light.otf);
-  }
+@font-face {
+  font-family: GillSansLight;
+  src: url(../fonts/GillSans/Gill\ Sans\ Light.otf);
+}
 
-  @font-face {
-    font-family: GillSansItalic;
-    src: url(../fonts/GillSans/Gill\ Sans\ Italic.otf);
-  }
+@font-face {
+  font-family: GillSansItalic;
+  src: url(../fonts/GillSans/Gill\ Sans\ Italic.otf);
+}
 
-  @font-face {
-    font-family: GillSansSemiBoldItalic;
-    src: url(../fonts/GillSans/Gill\ Sans\ Medium\ Italic.otf);
-  }
+@font-face {
+  font-family: GillSansSemiBoldItalic;
+  src: url(../fonts/GillSans/Gill\ Sans\ Medium\ Italic.otf);
+}
 
-  @font-face {
-    font-family: PTSerif;
-    src: url(../fonts/PTSerif-Regular.ttf);
-  }
-  
-
+@font-face {
+  font-family: PTSerif;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}

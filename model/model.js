@@ -112,8 +112,19 @@ var aboutContent = ``;
 
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
+    if (pgName == "homeContent") {
+        $("nav .links a").removeClass("black-text").addClass("white-text");
+        $("nav .nav-wrapper").removeClass("black-border").addClass("white-border");
+        $("nav .nav-wrapper .logo .nav-logo").removeClass("black-logo").addClass("white-logo");
+    } else {
+        $("nav .links a").removeClass("white-text").addClass("black-text");
+        $("nav .nav-wrapper").removeClass("white-border").addClass("black-border");
+        $("nav .nav-wrapper .logo .nav-logo").removeClass("white-logo").addClass("black-logo");
+    }
+
     try {
         eval(pgName);
+        //Sends to View (index.html)
         $("#app").html(eval(pgName));
     } catch (e) {
         console.log("hello ", e);
