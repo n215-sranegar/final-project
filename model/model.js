@@ -131,16 +131,33 @@ var aboutContent = `<div class="about-container">
 </div>
 </div>`;
 
+var galleryContent = `<div class="gallery-container">
+<div class="gallery-content-wrapper">
+  <h1>Gallery:</h1>
+  <div class="gallery-row first-gallery-row">
+    <div class="gallery-img gallery-img1"></div>
+    <div class="gallery-img  gallery-img2"></div>
+    <div class="gallery-img  gallery-img3"></div>
+  </div>
+  <div class="gallery-row second-gallery-row">
+    <div class="gallery-img gallery-img4"></div>
+    <div class="gallery-img gallery-img5"></div>
+  </div>
+</div>
+</div>`;
+
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
     if (pgName == "homeContent") {
         $("nav .links a").removeClass("black-text").addClass("white-text");
         $("nav .nav-wrapper").removeClass("black-border").addClass("white-border");
         $("nav .nav-wrapper .logo .nav-logo").removeClass("black-logo").addClass("white-logo");
+        $("nav .nav-wrapper label").removeClass("black-text").addClass("white-text");
     } else {
         $("nav .links a").removeClass("white-text").addClass("black-text");
         $("nav .nav-wrapper").removeClass("white-border").addClass("black-border");
         $("nav .nav-wrapper .logo .nav-logo").removeClass("white-logo").addClass("black-logo");
+        $("nav .nav-wrapper label").removeClass("white-text").addClass("black-text");
     }
 
     try {

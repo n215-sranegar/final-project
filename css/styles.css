@@ -532,6 +532,7 @@ footer .footer-wrapper span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 29.5px;
 }
 .gallery-container .gallery-content-wrapper .first-gallery-row .gallery-img1 {
   width: 489px;
@@ -580,6 +581,27 @@ footer .footer-wrapper span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-container .gallery-content-wrapper h1 {
+    text-align: center;
+  }
+  .gallery-container .gallery-content-wrapper h1:after {
+    width: 94%;
+    margin: 10.5px auto;
+  }
+  .gallery-container .gallery-content-wrapper .gallery-row {
+    flex-direction: column;
+    height: 800px;
+  }
+  .gallery-container .gallery-content-wrapper .gallery-row .gallery-img {
+    margin: 10px 0px;
+    width: 94%;
+  }
+  .gallery-container .gallery-content-wrapper .second-gallery-row {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
