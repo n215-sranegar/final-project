@@ -46,6 +46,7 @@
           height: 60px;
           background-color: $site-pink;
           padding: 0 10px;
+          cursor: pointer;
 
           p {
             color: $site-white;
@@ -78,9 +79,7 @@
 
         &:hover {
           cursor: pointer;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-          border-radius: 2px;
+       
           }
         }
 
@@ -94,8 +93,7 @@
 
             &:hover {
                 cursor: pointer;
-                transform: scale(1.02);
-                }
+            }
           }
 
           span p {
