@@ -106,15 +106,13 @@
       }
 
       h1:after {
-        width: 100%;
-        margin: 20px auto;
+        display: none;
       }
 
       .gallery-row {
         flex-direction: column;
         height: auto;
-
-
+        
         a {
           width: 100%;
 

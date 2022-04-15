@@ -1,0 +1,136 @@
+.contact-page {
+  padding: 0 15px;
+
+  .contact-page-wrapper {
+    max-width: $site-width;
+    padding-top: 65.5px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+
+    h1 {
+      font-family: GillSans;
+      font-weight: lighter;
+      font-size: 25px;
+      color: $site-black;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      &:after {
+        content: "";
+        display: block;
+        width: 229px;
+        border-bottom: 2px solid $site-black;
+        margin-top: 10.5px;
+      }
+    }
+
+    .contact-content-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 65.5px;
+
+
+      .form {
+        width: 529px;
+        margin-right: 15px;
+
+        input {
+          width: 100%;
+          height: 60px;
+          margin-bottom: 21px;
+          font-family: GillSans;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.502);
+          padding: 20px;
+          background-color: #f5f5f5;
+          border: none;
+        }
+
+        textarea {
+          width: 100%;
+          height: 199px;
+          resize: none;
+          font-family: GillSans;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.502);
+          padding: 20px;
+          background-color: #f5f5f5;
+          border: none;
+          margin-bottom: 21px;
+        }
+
+        button {
+          width: 167px;
+          height: 60px;
+          background-color: $site-pink;
+          color: $site-white;
+          border: none;
+          cursor: pointer;
+          font-family: GillSans;
+          font-size: 16px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+      }
+
+      .map {
+        width: 400px;
+        height: 442px;
+
+        .map-img {
+            width: 100%;
+            height: 442px;
+            background-image: url(../images/map.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-page {
+        .contact-page-wrapper {
+         
+            h1 {
+                text-align: center;
+                &:after {
+                    display: none;
+                }
+            }
+
+            .contact-content-container {
+                flex-direction: column-reverse;
+         
+
+                .map {
+                    margin: 0 auto 20px auto;
+                    width: 100%;
+                    
+                }
+
+                .form {
+                    width: 100%;
+                    margin: 0 auto;
+
+                    input {
+                        max-width: 100%;
+                        font-size: 14px;
+                     
+                    }
+                    textarea {
+                        font-size: 14px;
+                        max-width: 100%;
+                        margin-bottom: 40px;
+                    }
+                    button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -422,6 +422,23 @@ var blog5Content = ` <div class="blog-story-page">
 </div>
 </div>`
 
+var contactContent = `  <div class="contact-page">
+<div class="contact-page-wrapper">
+  <h1>Contact Us:</h1>
+  <div class="contact-content-container">
+    <div class="form">
+      <input type="text" placeholder="Your name...">
+      <input type="text" placeholder="Email address...">
+      <input type="text" placeholder="Company...">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+      <button>Send Message</button>
+    </div>
+    <div class="map">
+      <div class="map-img"></div>
+    </div>
+  </div>
+</div>
+</div>`
 
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
