@@ -211,6 +211,109 @@ var gallery5Content = `<div class="gal-container">
 </div>
 </div>`;
 
+var blogContent = `  <div class="blog-page-container">
+<div class="blog-content-wrapper">
+  <h1>Blog:</h1>
+  <div class="row">
+    <div class="blog-container">
+      <div class="blog-date">
+        <p>06</p>
+        <span><p>JUN</p></span>
+      </div>
+
+      <div class="blog-right-content">
+        <a href="#blog1"><div class="blog-img"></div></a>
+        <p>Sed et persipiatis unde omnis iste natus</p>
+        <span
+          ><p>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p></span
+        >
+      </div>
+    </div>
+    <div class="blog-container">
+      <div class="blog-date">
+        <p>30</p>
+        <span><p>JUL</p></span>
+      </div>
+      <div class="blog-right-content">
+        <div class="blog-img"></div>
+        <p>Sed et persipiatis unde omnis iste natus</p>
+        <span
+          ><p>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p></span
+        >
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="blog-container">
+       <div class="blog-date">
+        <p>30</p>
+        <span><p>AUG</p></span>
+      </div>
+      <div class="blog-right-content">
+        <div class="blog-img"></div>
+        <p>Sed et persipiatis unde omnis iste natus</p>
+        <span
+          ><p>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p></span
+        >
+      </div>
+    </div>
+    <div class="blog-container">
+      <div class="blog-date">
+        <p>23</p>
+        <span><p>NOV</p></span>
+      </div>
+      <div class="blog-right-content">
+        <div class="blog-img"></div>
+        <p>Sed et persipiatis unde omnis iste natus</p>
+        <span
+          ><p>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p></span
+        >
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="blog-container">
+      <div class="blog-date">
+        <p>23</p>
+        <span><p>DEC</p></span>
+      </div>
+      <div class="blog-right-content">
+        <div class="blog-img"></div>
+        <p>Sed et persipiatis unde omnis iste natus</p>
+        <span
+          ><p>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p></span
+        >
+      </div>
+    </div>
+  </div>
+</div>
+</div>`
+
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
     if (pgName == "homeContent") {

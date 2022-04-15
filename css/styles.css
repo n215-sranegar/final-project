@@ -951,17 +951,21 @@ footer .footer-wrapper span {
     margin: 0 auto;
   }
   .blog-page-container .blog-content-wrapper h1:after {
-    width: 100%;
-    margin: 20px auto;
+    display: none;
   }
   .blog-page-container .blog-content-wrapper .row {
     flex-direction: column;
+    width: 670px;
+    margin: 0 auto;
   }
   .blog-page-container .blog-content-wrapper .row .blog-container {
-    margin: 30px 0px;
+    margin: 30px 20px;
     flex-direction: column;
+    width: 100%;
+    padding: 10px;
   }
   .blog-page-container .blog-content-wrapper .row .blog-container .blog-date {
+    margin: 0 auto;
     width: 100%;
     margin-top: 30px;
   }
@@ -970,6 +974,7 @@ footer .footer-wrapper span {
     margin: 0 auto;
   }
   .blog-page-container .blog-content-wrapper .row .blog-container .blog-right-content .blog-img {
+    margin: 0 auto;
     width: 100%;
     height: 220px;
   }
