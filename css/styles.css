@@ -367,6 +367,9 @@ footer .footer-wrapper span {
   max-width: 1198px;
   margin: 0 auto;
 }
+.home-events .upcoming-events-wrapper a {
+  text-decoration: none;
+}
 .home-events .upcoming-events-wrapper .event-container {
   width: 220px;
   height: auto;

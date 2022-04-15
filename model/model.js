@@ -30,7 +30,7 @@ var homeContent = `<div class="home-hero">
 <div class="home-events">
 <h2>Upcoming Events:</h2>
 <div class="upcoming-events-wrapper">
-  <div class="event-container">
+<a href="#blog1"><div class="event-container">
     <div class="date">
       <p>06</p>
       <span><p>JUN</p></span>
@@ -44,8 +44,8 @@ var homeContent = `<div class="home-hero">
         </p></span
       >
     </div>
-  </div>
-  <div class="event-container">
+  </div></a>
+  <a href="#blog2"><div class="event-container">
     <div class="date">
       <p>30</p>
       <span><p>JUL</p></span>
@@ -59,8 +59,8 @@ var homeContent = `<div class="home-hero">
         </p></span
       >
     </div>
-  </div>
-  <div class="event-container">
+  </div></a>
+  <a href="#blog3"><div class="event-container">
     <div class="date">
       <p>30</p>
       <span><p>AUG</p></span>
@@ -74,8 +74,8 @@ var homeContent = `<div class="home-hero">
         </p></span
       >
     </div>
-  </div>
-  <div class="event-container">
+  </div></a>
+  <a href="#blog4"><div class="event-container">
     <div class="date">
       <p>23</p>
       <span><p>NOV</p></span>
@@ -89,8 +89,8 @@ var homeContent = `<div class="home-hero">
         </p>
       </span>
     </div>
-  </div>
-  <div class="event-container">
+  </div></a>
+  <a href="#blog5"><div class="event-container">
     <div class="date">
       <p>23</p>
       <span><p>DEC</p></span>
@@ -104,7 +104,7 @@ var homeContent = `<div class="home-hero">
         </p>
       </span>
     </div>
-  </div>
+  </div></a>
 </div>
 </div>`
 

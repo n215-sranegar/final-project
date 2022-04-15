@@ -29,6 +29,10 @@
     max-width: $home-events-width;
     margin: 0 auto;
 
+    a {
+      text-decoration: none;
+    }
+
     .event-container {
       width: 220px;
       height: auto;
