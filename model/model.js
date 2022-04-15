@@ -240,7 +240,7 @@ var blogContent = `  <div class="blog-page-container">
         <span><p>JUL</p></span>
       </div>
       <div class="blog-right-content">
-        <div class="blog-img"></div>
+      <a href="#blog2"><div class="blog-img"></div></a>
         <p>Sed et persipiatis unde omnis iste natus</p>
         <span
           ><p>
@@ -260,7 +260,7 @@ var blogContent = `  <div class="blog-page-container">
         <span><p>AUG</p></span>
       </div>
       <div class="blog-right-content">
-        <div class="blog-img"></div>
+      <a href="#blog3"><div class="blog-img"></div></a>
         <p>Sed et persipiatis unde omnis iste natus</p>
         <span
           ><p>
@@ -278,7 +278,7 @@ var blogContent = `  <div class="blog-page-container">
         <span><p>NOV</p></span>
       </div>
       <div class="blog-right-content">
-        <div class="blog-img"></div>
+      <a href="#blog4"><div class="blog-img"></div></a>
         <p>Sed et persipiatis unde omnis iste natus</p>
         <span
           ><p>
@@ -298,7 +298,7 @@ var blogContent = `  <div class="blog-page-container">
         <span><p>DEC</p></span>
       </div>
       <div class="blog-right-content">
-        <div class="blog-img"></div>
+      <a href="#blog5"><div class="blog-img"></div></a>
         <p>Sed et persipiatis unde omnis iste natus</p>
         <span
           ><p>
@@ -349,6 +349,79 @@ var blog1Content = ` <div class="blog-story-page">
 </div>
 </div>
 </div>`
+
+var blog2Content = ` <div class="blog-story-page">
+<div class="blog-story-wrapper">
+  <div class="blog-story-header">
+    <div class="story-date-wrapper">
+      <p>30</p>
+      <span><p>JUL</p></span>
+    </div>
+  </div>
+  <div class="blog-story-text-wrapper">
+  <h1>Header #1:</h1>
+  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+  <h1>Header #2:</h1>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+</div>
+</div>`
+
+var blog3Content = ` <div class="blog-story-page">
+<div class="blog-story-wrapper">
+  <div class="blog-story-header">
+    <div class="story-date-wrapper">
+      <p>30</p>
+      <span><p>AUG</p></span>
+    </div>
+  </div>
+  <div class="blog-story-text-wrapper">
+  <h1>Header #1:</h1>
+  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+  <h1>Header #2:</h1>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+</div>
+</div>`
+
+var blog4Content = ` <div class="blog-story-page">
+<div class="blog-story-wrapper">
+  <div class="blog-story-header">
+    <div class="story-date-wrapper">
+      <p>23</p>
+      <span><p>NOV</p></span>
+    </div>
+  </div>
+  <div class="blog-story-text-wrapper">
+  <h1>Header #1:</h1>
+  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+  <h1>Header #2:</h1>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+</div>
+</div>`
+
+var blog5Content = ` <div class="blog-story-page">
+<div class="blog-story-wrapper">
+  <div class="blog-story-header">
+    <div class="story-date-wrapper">
+      <p>23</p>
+      <span><p>DEC</p></span>
+    </div>
+  </div>
+  <div class="blog-story-text-wrapper">
+  <h1>Header #1:</h1>
+  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+  <h1>Header #2:</h1>
+  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+</div>
+</div>`
+
 
 //This function is being called from the app.js and it has the page name
 export function modelPageName(pgName) {
