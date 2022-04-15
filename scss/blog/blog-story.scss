@@ -1,0 +1,78 @@
+.blog-story-page {
+    padding: 0px 20px;
+
+    .blog-story-wrapper {
+        max-width: $site-width;
+        padding-top: 55.5px;
+        padding-bottom: 151px;
+        margin: 0 auto;
+    
+        .blog-story-header {
+            height: 300px;
+            width: 100%;
+            background-image: linear-gradient(rgba($site-pink, 0.6), rgba($site-pink, 0.6)),url(../images/blog.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 75px 0;
+
+            .story-date-wrapper {
+                width: 155.25px;
+                height: 155.25px;
+                background-color: $site-pink;
+                padding: 0 10px;
+                margin: 0 auto;
+
+                p {
+                    color: $site-white;
+                    font-family: GillSansBold;
+                    font-size: 55px;
+                    text-align: center;
+                    padding-top: 27px;
+                  }
+        
+                  span p {
+                    color: $site-white;
+                    font-family: GillSansLight;
+                    font-size: 31px;
+                    text-align: center;
+                    margin-top: -48px;
+                  }
+            }
+        }
+
+        .blog-story-text-wrapper {
+            max-width: 856px;
+            h1 {
+                font-size: 20px;
+                color: $site-pink;
+                margin: 56px auto 30px auto;
+                font-weight: lighter;
+            }
+    
+            p {
+                font-family: GillSansLight;
+                font-size: 20px;
+                letter-spacing: 2px;
+                
+            }
+        }
+       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blog-story-page {
+        .blog-story-wrapper {
+            .blog-story-text-wrapper {
+                h1 {
+                    font-size: 30px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
