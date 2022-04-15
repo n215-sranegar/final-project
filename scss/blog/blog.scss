@@ -24,6 +24,7 @@
       }
     }
 
+
     .row {
       margin-bottom: 30px;
       max-width: 100%;
@@ -32,6 +33,11 @@
       align-items: center;
       justify-content: space-between;
 
+      .last-container {
+        opacity: 0%;
+      }
+
+  
       .blog-container {
         width: 460px;
         height: auto;
@@ -123,6 +129,10 @@
         width: 670px;
         margin: 0 auto;
    
+        .last-container {
+          display: none;
+        }
+
 
         .blog-container {
           margin: 30px 20px;

@@ -882,6 +882,9 @@ footer .footer-wrapper span {
   align-items: center;
   justify-content: space-between;
 }
+.blog-page-container .blog-content-wrapper .row .last-container {
+  opacity: 0%;
+}
 .blog-page-container .blog-content-wrapper .row .blog-container {
   width: 460px;
   height: auto;
@@ -957,6 +960,9 @@ footer .footer-wrapper span {
     flex-direction: column;
     width: 670px;
     margin: 0 auto;
+  }
+  .blog-page-container .blog-content-wrapper .row .last-container {
+    display: none;
   }
   .blog-page-container .blog-content-wrapper .row .blog-container {
     margin: 30px 20px;

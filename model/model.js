@@ -310,6 +310,24 @@ var blogContent = `  <div class="blog-page-container">
         >
       </div>
     </div>
+    <div class="blog-container last-container">
+    <div class="blog-date">
+      <p>23</p>
+      <span><p>DEC</p></span>
+    </div>
+    <div class="blog-right-content">
+      <div class="blog-img"></div>
+      <p>Sed et persipiatis unde omnis iste natus</p>
+      <span
+        ><p>
+          Sed ut perspiciatis unde omnis iste natus error sit
+          voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et
+          quasi architecto beatae vitae dicta sunt explicabo.
+        </p></span
+      >
+    </div>
+  </div>
   </div>
 </div>
 </div>`
